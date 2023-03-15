@@ -14,6 +14,6 @@
 
 let btn = document.querySelector(`#btn`)
 btn.addEventListener("click", () => {
-    let resultat = Number(num1.value) + Number(num2.value)
-    document.querySelector(`#resultat`).innerHTML = resultat
+    let calcul = Number(num1.value) * 2
+    document.querySelector(`#calcul`).innerHTML = "le multiple par 2 de " + num1.value + " est " + calcul
 })
