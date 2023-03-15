@@ -11,10 +11,10 @@
     Vous DEVEZ afficher le résultat directement sur la page
 */
 
-
 let btn = document.querySelector(`#btn`)
 btn.addEventListener("click", () => {
     let num1 = document.querySelector(`#num1`)
+
     let calcul = Number(num1.value) * 2
     document.querySelector(`#calcul`).innerHTML = "le multiple par 2 de " + num1.value + " est " + calcul
 })

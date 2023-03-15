@@ -24,5 +24,5 @@ btn2.addEventListener("click", () => {
     let x = num1.value
     num1.value = num2.value
     num2.value = x
-    document.querySelector(`#inverser`).innerHTML = "La valeur A = " + num1.value + " et la valeur B = " + num2.value
+    document.querySelector(`#inverser`).innerHTML = "La valeur inversée de A = " + num1.value + " et la valeur inversée de B = " + num2.value
     })
