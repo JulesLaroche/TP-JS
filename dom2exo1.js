@@ -14,6 +14,7 @@
 
 let btn = document.querySelector(`#btn`)
 btn.addEventListener("click", () => {
+    let nom = document.querySelector(`#nom`)
     let bonjour = nom.value
     document.querySelector(`#bonjour`).innerHTML = "Bonjour " + bonjour
 })
