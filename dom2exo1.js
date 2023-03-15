@@ -12,8 +12,8 @@
 
 
 
-let nom = document.querySelector(`#nom`)
-nom.addEventListener("input", () => {
+let btn = document.querySelector(`#btn`)
+btn.addEventListener("click", () => {
     let bonjour = nom.value
     document.querySelector(`#bonjour`).innerHTML = "Bonjour " + bonjour
 })
